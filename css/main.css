@@ -1,0 +1,133 @@
+body {
+    background-color: #2B2B2B;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu p, a, button {
+    font-size: 16px;
+    color: #fff;
+    line-height: 22.4px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.icon, a{
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 607px;
+    height: 60px;
+}
+
+.menu button {
+    background-color: #A259FF;
+    padding: 19px 30px;
+    border-radius: 40px;
+}
+
+.icon p {
+    font-size: 22px;
+    color: #fff;
+    line-height: 22.4px;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #A259FF;
+    margin-left: 10px;
+}
+
+header {
+    padding: 80px 115px;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    justify-content: space-between;
+}
+
+/* .header-text, .header-img {
+    width: 50%;
+} */
+
+.header-img {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    width: 510px;
+    height: 510px;
+}
+
+.header-text {
+    width: 510px;
+    height: 544px;
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 67px;
+    line-height: 73.7px;
+}
+
+.header-text p {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.header-text button {
+    background-color: #A259FF;
+    padding: 19px 50px;
+    border-radius: 40px;   
+}
+
+.header-result {
+    display: flex;
+}
+
+.header-info h2 {
+    font-size: 28px;
+    line-height: 39.2px;
+}
+
+.header-info p {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 24px 10px;
+
+}
+
+.avatar img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header-img h2 {
+    margin: 20px 20px 10px 20px;
+    line-height: 30px;
+}
+
+.header-img p {
+    line-height: 22px;
+}
+
+.avatar p {
+    margin: 0;
+}
